@@ -306,7 +306,7 @@ classe Carro HERDA Veiculo
     MÉTODO CalcularConsumo(kilometrosPercorridos)
         ESCREVA kilometrosPercorridos / eficiência
 
-classe Carro HERDA Veiculo
+classe Moto HERDA Veiculo
     MÉTODO CONSTRUTOR(modelo, ano, eficiência)
         super(modelo, ano)
         ESTE.eficiência = eficiência
